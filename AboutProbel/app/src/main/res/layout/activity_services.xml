@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehmet.myfirstapp.services">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/scrollView"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="56dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/probel" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="382dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="-1dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/oraclelogo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Oracle Danışmanlık"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Probel, isteyen müşterilerine Oracle veritabanı çözümleri ile ilgili danışmanlık ve destek hizmeti sunmaktadır.Uzman kadrosu ile veritabanınızın daha performanslı ve güvenli çalışmasını sağlayarak, kaynakların daha etkin kullanılmasına ve bilgi güvenliğinin en üst noktaya getirilmesinde müşterilerine yardımcı olmaktadır."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text=" Sunmuş Olduğumuz Veritabanı Danışmanlık ve Destek Hizmetleri"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold|italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:text="- Uzaktan ve Yerinde Sürekli Destek (7/24)"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="-1dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- Veritabanı Sistemleri Monitör Etme, Hata Erken Uyarı Sistemi"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- SQL Tuning"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:text="- Performans Tuning"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- Veritabanı Sağlık Kontrolleri (Database Healthchecks)"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- Uygulama Mimarisi (Application Architecture) Modelleme Danışmanlığı"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- Migration  Upgrade (Veritabanları Arası Göç, Versiyon Yükseltme, Yama Uygulama)"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:text="- Oracle Data Guard, RAC Yapılandırma, Kurulum ve Yönetimi"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="382dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="-1dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:srcCompat="@drawable/destek" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Satış Sonrası Destek"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="0dp"
+                android:text="Probel satış anında vermiş olduğu kurulum ve eğitim hizmetlerinin yanında, satış sonrası müşterilerine sağlamış olduğu 7/24 hizmeti, müşterileri tarafından büyük memnuniyet ile karşılanmaktadır. Müşteri memnuniyetini kendisine ilke edinmiş firma, konusunda uzmanlaşmış destek kadrosu ile, çağrı merkezinemüşterilerinden gelen istekler anında değerlendirilmekte ve çözüm sunulmaktadır.
+
+Çağrı merkezimize gelen her çağrı, kayıt altına alınmakta, çözümlenme süreci yöneticiler ve müşteriler tarafından takip edilebilmektedir. Bildirilen isteğin türüne göre, şirket merkezinde yerinden destek, uzak bağlantı ile destek veya kurumda yerinde personel desteği ile sorunlar çözümlenmektedir. Sistem geçişlerinden kurulum ve eğitim için gerekli uzman personel desteği sağlanmakta, veri aktarımlarıve geçişler sorunsuz ve kesintisiz bir şekilde yapılmaktadır."
+                android:textColor="?attr/textColorAlertDialogListItem"
+                android:textStyle="bold|italic"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
